@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(227, 227, 227);
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 6px 20px 1px rgba(0, 0, 0, 0.285);
+    padding: 40px 0px;
+}
+#title{
+    font-size: 30px;
+    color: rgb(0, 115, 255);
+}
+#input-field{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 26px;
+}
+#module{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#module-name{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+.module-input{
+    width: 150px;
+    padding: 4px;
+    color: white;
+    background-color: rgba(60, 60, 60, 0.284);
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 4px;
+}
+select{
+    width:  120px;
+    padding: 5.8px;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #ffae00;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #cd8c01;
+}
+#gpaDisplay{
+    font-size: 28px;
+    margin-top: 30px;
+}
+#line{
+    border: 1px solid rgba(70, 70, 70, 0.151);
+    margin: 20px;
+    width: 90%;
+}
+#modules{
+    margin-top: 15px;
+}
+p{
+    margin: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form-container">
+        <h1 id="title">GPA CALCULATOR</h1>
+        <div id="input-field">
+            <div id="module">
+                <label id="module-name"></label>
+                <input class="module-input" id="name" value="" type="text" placeholder="Enter module name" required>
+                <input class="module-input" id="credit" type="text" placeholder="Enter module credit" required>
+            </div>
+            <select required>
+                <option value="">Select Grade</option>
+                <option value="4.0">A+</option>
+                <option value="4.0">A</option>
+                <option value="3.7">A-</option>
+                <option value="3.3">B+</option>
+                <option value="3.0">B</option>
+                <option value="2.7">B-</option>
+                <option value="2.3">C+</option>
+                <option value="2.0">C</option>
+                <option value="1.7">C-</option>
+                <option value="1.3">D+-</option>
+                <option value="1.0">D</option>
+                <option value="0.0">E</option>
+            </select>
+        </div>
+        <button type="submit" onclick="calcGPA()">Calculate</button>
+        <h1 id="gpaDisplay">0.00</h1>
+        <hr id="line">
+        <div id="modules">Module 1</div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
