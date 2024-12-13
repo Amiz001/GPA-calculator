@@ -27,7 +27,7 @@ function calcGPA(event){
     gpaDisplay.textContent = gpa.toFixed(2);
 
     const moduleDisplay = document.createElement("p");
-    moduleDisplay.textContent = `Module:${name} | Credit:${grade} | Grade:${credit}`;
+    moduleDisplay.textContent = `Module:${name} | Credit:${credit} | Grade:${grade}`;
     modules.appendChild(moduleDisplay);
 }
 
